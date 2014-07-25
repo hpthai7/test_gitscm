@@ -6,3 +6,8 @@ public class Class extends Activity {
 
 	}
 }
+// one 2
+/**
+ * two 2
+ *
+ */
