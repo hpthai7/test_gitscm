@@ -88,7 +88,9 @@ $$\theta=(X^TX)^{-1}X^Ty$$
 
 $$J(\theta_0, \theta_1,\ldots,\theta_n)=\min_{\theta_i}\frac{1}{2m}\sum_{i=1}^m(h_\theta(x^{(i)})-y^{(i)})^2$$
 
-$$\text{repeat until convergence}\ \left\{\theta_j=\theta_j-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x^{(i)})-y^{(i)})\cdot x_j^{(i)}\right\}\ ,j=\overline{0,1}$$
+```math
+\text{repeat until convergence}\ \left\{\theta_j=\theta_j-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x^{(i)})-y^{(i)})\cdot x_j^{(i)}\right\}\ ,j=\overline{0,1}
+```
 
 **Computing Parameters Analytically**
 
